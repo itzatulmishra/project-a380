@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Round 1</title>
+    <link rel="stylesheet" href="round1.css">
+</head>
+<body>
+    <h1>Round 1</h1>
+    <br>
+    <br>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quaerat unde veritatis soluta. Ipsa fugiat perspiciatis provident aliquam soluta accusamus cupiditate hic id! Facilis quae hic accusamus blanditiis natus suscipit.</p>
+    <img src="sample.jpg" alt="Meme Round 1" width="200">
+    <br>
+    <br>
+    <script src="round1.js"></script>
+    <p>
+        <button onclick="startWebcam();">Start WebCam</button>
+        <button onclick="stopWebcam();">Stop WebCam</button> 
+        <button onclick="snapshot();">Take Snapshot</button> 
+    </p>
+    <video onclick="snapshot(this);" width=640 height=480 id="video" controls autoplay></video>
+    <p>Screenshot : <p>
+    <canvas id="myCanvas" width="640" height="480"></canvas>  
+</body>
+</html>
